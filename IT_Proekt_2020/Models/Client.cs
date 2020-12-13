@@ -13,6 +13,7 @@ namespace IT_Proekt_2020.Models
         public string Ime { get; set; }
         public string Adresa { get; set; }
         public int Naracki { get; set; }
-        public int Poeni { get; set; }
+        public int Bodovi { get; set; }
+
     }
 }

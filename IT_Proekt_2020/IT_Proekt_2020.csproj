@@ -196,6 +196,10 @@
     <Compile Include="Migrations\202012131203062_kontroler.Designer.cs">
       <DependentUpon>202012131203062_kontroler.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202012132241198_bodovi.cs" />
+    <Compile Include="Migrations\202012132241198_bodovi.Designer.cs">
+      <DependentUpon>202012132241198_bodovi.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Client.cs" />
@@ -309,6 +313,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202012131203062_kontroler.resx">
       <DependentUpon>202012131203062_kontroler.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012132241198_bodovi.resx">
+      <DependentUpon>202012132241198_bodovi.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
