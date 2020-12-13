@@ -33,5 +33,7 @@ namespace IT_Proekt_2020.Models
         public System.Data.Entity.DbSet<IT_Proekt_2020.Models.Store> Stores { get; set; }
 
         public System.Data.Entity.DbSet<IT_Proekt_2020.Models.Product> Products { get; set; }
+
+        public System.Data.Entity.DbSet<IT_Proekt_2020.Models.Client> Clients { get; set; }
     }
 }
