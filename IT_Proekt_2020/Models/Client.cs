@@ -10,9 +10,9 @@ namespace IT_Proekt_2020.Models
     {
         [Key]
         public int Id { get; set; }
-        public string Ime { get; set; }
-        public string Adresa { get; set; }
-        public int Naracki { get; set; }
+        public string Name { get; set; }
+        public string Adress { get; set; }
+        public int Porachki { get; set; }
         public int Bodovi { get; set; }
 
     }
