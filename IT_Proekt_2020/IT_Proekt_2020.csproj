@@ -228,6 +228,10 @@
     <Compile Include="Migrations\202012142022534_Veronika.Designer.cs">
       <DependentUpon>202012142022534_Veronika.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202012142028316_novo1.cs" />
+    <Compile Include="Migrations\202012142028316_novo1.Designer.cs">
+      <DependentUpon>202012142028316_novo1.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Client.cs" />
@@ -470,6 +474,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202012142022534_Veronika.resx">
       <DependentUpon>202012142022534_Veronika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012142028316_novo1.resx">
+      <DependentUpon>202012142028316_novo1.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
