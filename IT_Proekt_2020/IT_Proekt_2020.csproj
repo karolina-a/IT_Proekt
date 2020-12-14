@@ -220,6 +220,10 @@
     <Compile Include="Migrations\202012141952596_vozrast.Designer.cs">
       <DependentUpon>202012141952596_vozrast.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202012142009376_asd.cs" />
+    <Compile Include="Migrations\202012142009376_asd.Designer.cs">
+      <DependentUpon>202012142009376_asd.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
     <Compile Include="Models\Client.cs" />
@@ -456,6 +460,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Migrations\202012141952596_vozrast.resx">
       <DependentUpon>202012141952596_vozrast.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202012142009376_asd.resx">
+      <DependentUpon>202012142009376_asd.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>

@@ -16,6 +16,7 @@ namespace IT_Proekt_2020.Models
         public int Poeni { get; set; }
         public int broj { get; set; }
         public int vozrast { get; set; }
+        public int asd { get; set; }
 
     }
 }
