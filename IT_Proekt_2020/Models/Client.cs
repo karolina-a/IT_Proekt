@@ -15,6 +15,7 @@ namespace IT_Proekt_2020.Models
         public int Naracki { get; set; }
         public int Poeni { get; set; }
         public int broj { get; set; }
+        public int test { get; set; }
 
     }
 }
