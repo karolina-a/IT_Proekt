@@ -14,6 +14,7 @@ namespace IT_Proekt_2020.Models
         public string Adresa { get; set; }
         public int Naracki { get; set; }
         public int Poeni { get; set; }
+        public int broj { get; set; }
 
     }
 }
